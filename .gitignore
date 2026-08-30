@@ -1,0 +1,22 @@
+.claude/scheduled_tasks.lock
+
+# 学習成果物等
+outputs/
+
+# ダウンロードデータ(スクリプト実行時に自動取得・展開されるため管理不要)
+handson-ml3/03/exercise/data/
+
+# ログ
+logs/
+*.log
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv

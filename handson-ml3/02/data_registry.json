@@ -1,0 +1,119 @@
+{
+  "data_produce/data/housing/housing.csv": {
+    "last_updated": "2026-08-16T05:56:45+00:00",
+    "readers": [
+      "learn/01_load_and_inspect.py"
+    ],
+    "writers": []
+  },
+  "data_produce/data/housing_test.csv": {
+    "last_updated": "2026-08-16T06:10:18+00:00",
+    "readers": [
+      "learn/common.py"
+    ],
+    "writers": [
+      "learn/02_split_data.py"
+    ]
+  },
+  "data_produce/data/housing_train.csv": {
+    "last_updated": "2026-08-23T07:51:38+00:00",
+    "readers": [
+      "learn/03_explore_housing.py",
+      "learn/04_clean_encode.py",
+      "learn/05_scale_and_transform.py",
+      "learn/06_custom_transformers.py",
+      "learn/07_preprocessing_pipeline.py",
+      "learn/common.py"
+    ],
+    "writers": [
+      "learn/02_split_data.py"
+    ]
+  },
+  "learn/outputs/age_similarity_plot.png": {
+    "last_updated": "2026-08-02T06:15:17+00:00",
+    "readers": [],
+    "writers": [
+      "learn/05_scale_and_transform.py"
+    ]
+  },
+  "learn/outputs/attribute_histogram_plots.png": {
+    "last_updated": "2026-08-08T12:57:43+00:00",
+    "readers": [],
+    "writers": [
+      "learn/01_load_and_inspect.py"
+    ]
+  },
+  "learn/outputs/district_cluster_plot.png": {
+    "last_updated": "2026-08-02T06:28:19+00:00",
+    "readers": [],
+    "writers": [
+      "learn/06_custom_transformers.py"
+    ]
+  },
+  "learn/outputs/final_model.pkl": {
+    "last_updated": "2026-08-16T06:10:18+00:00",
+    "readers": [
+      "experiment/importance_comparison.py",
+      "learn/10_finalize_model.py"
+    ],
+    "writers": [
+      "learn/10_finalize_model.py"
+    ]
+  },
+  "learn/outputs/geo_scatter_density.png": {
+    "last_updated": "2026-08-02T06:15:11+00:00",
+    "readers": [],
+    "writers": [
+      "learn/03_explore_housing.py"
+    ]
+  },
+  "learn/outputs/geo_scatter_population_price.png": {
+    "last_updated": "2026-08-02T06:15:11+00:00",
+    "readers": [],
+    "writers": [
+      "learn/03_explore_housing.py"
+    ]
+  },
+  "learn/outputs/housing_income_cat_bar_plot.png": {
+    "last_updated": "2026-08-02T06:15:04+00:00",
+    "readers": [],
+    "writers": [
+      "learn/02_split_data.py"
+    ]
+  },
+  "learn/outputs/income_percentile_hist.png": {
+    "last_updated": "2026-08-02T06:15:16+00:00",
+    "readers": [],
+    "writers": [
+      "learn/05_scale_and_transform.py"
+    ]
+  },
+  "learn/outputs/income_vs_house_value_scatter.png": {
+    "last_updated": "2026-08-02T06:15:13+00:00",
+    "readers": [],
+    "writers": [
+      "learn/03_explore_housing.py"
+    ]
+  },
+  "learn/outputs/long_tail_plot.png": {
+    "last_updated": "2026-08-02T06:15:16+00:00",
+    "readers": [],
+    "writers": [
+      "learn/05_scale_and_transform.py"
+    ]
+  },
+  "learn/outputs/sampling_distributions.png": {
+    "last_updated": "2026-08-02T10:17:40+00:00",
+    "readers": [],
+    "writers": [
+      "learn/09_tune_model.py"
+    ]
+  },
+  "learn/outputs/scatter_matrix_plot.png": {
+    "last_updated": "2026-08-02T06:15:13+00:00",
+    "readers": [],
+    "writers": [
+      "learn/03_explore_housing.py"
+    ]
+  }
+}

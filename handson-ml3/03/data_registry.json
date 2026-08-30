@@ -1,0 +1,170 @@
+{
+  "data_produce/data/mnist_raw.npz": {
+    "last_updated": "2026-08-16T07:12:09+00:00",
+    "readers": [
+      "data_produce/fetch_mnist.py"
+    ],
+    "writers": []
+  },
+  "data_produce/data/mnist_test.npz": {
+    "last_updated": "2026-08-30T04:46:56+00:00",
+    "readers": [
+      "<string>",
+      "exercise/01_recall_90_threshold.py",
+      "exercise/02_knn_grid_search_97.py",
+      "exercise/03_data_augmentation.py",
+      "experiment/01_confused_digit_pairs.py",
+      "learn/01_binary_classifier.py",
+      "learn/02_cross_validation_accuracy.py",
+      "learn/03_confusion_matrix_metrics.py",
+      "learn/04_precision_recall_tradeoff.py",
+      "learn/05_roc_curve.py",
+      "learn/06_multiclass_classification.py",
+      "learn/07_error_analysis.py",
+      "learn/08_multilabel_multioutput.py"
+    ],
+    "writers": [
+      "data_produce/fetch_mnist.py"
+    ]
+  },
+  "data_produce/data/mnist_train.npz": {
+    "last_updated": "2026-08-30T04:46:56+00:00",
+    "readers": [
+      "<string>",
+      "exercise/01_recall_90_threshold.py",
+      "exercise/02_knn_grid_search_97.py",
+      "exercise/03_data_augmentation.py",
+      "experiment/01_confused_digit_pairs.py",
+      "learn/01_binary_classifier.py",
+      "learn/02_cross_validation_accuracy.py",
+      "learn/03_confusion_matrix_metrics.py",
+      "learn/04_precision_recall_tradeoff.py",
+      "learn/05_roc_curve.py",
+      "learn/06_multiclass_classification.py",
+      "learn/07_error_analysis.py",
+      "learn/08_multilabel_multioutput.py"
+    ],
+    "writers": [
+      "data_produce/fetch_mnist.py"
+    ]
+  },
+  "data_produce/outputs/more_digits_plot.png": {
+    "last_updated": "2026-08-16T07:12:10+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/fetch_mnist.py"
+    ]
+  },
+  "data_produce/outputs/some_digit_plot.png": {
+    "last_updated": "2026-08-16T07:12:09+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/fetch_mnist.py"
+    ]
+  },
+  "exercise/outputs/shift_demo_plot.png": {
+    "last_updated": "2026-08-30T04:46:56+00:00",
+    "readers": [],
+    "writers": [
+      "exercise/03_data_augmentation.py"
+    ]
+  },
+  "experiment/outputs/confused_pairs_ranking_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "experiment/outputs/error_analysis_2_8_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "experiment/outputs/error_analysis_3_8_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "experiment/outputs/error_analysis_5_8_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "experiment/outputs/error_analysis_7_9_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "experiment/outputs/error_analysis_8_9_plot.png": {
+    "last_updated": "2026-08-23T06:47:52+00:00",
+    "readers": [],
+    "writers": [
+      "experiment/01_confused_digit_pairs.py"
+    ]
+  },
+  "learn/outputs/confusion_matrix_errors_plot.png": {
+    "last_updated": "2026-08-23T06:37:02+00:00",
+    "readers": [],
+    "writers": [
+      "learn/07_error_analysis.py"
+    ]
+  },
+  "learn/outputs/confusion_matrix_plot.png": {
+    "last_updated": "2026-08-23T06:37:02+00:00",
+    "readers": [],
+    "writers": [
+      "learn/07_error_analysis.py"
+    ]
+  },
+  "learn/outputs/error_analysis_3_5_plot.png": {
+    "last_updated": "2026-08-23T06:37:03+00:00",
+    "readers": [],
+    "writers": [
+      "learn/07_error_analysis.py"
+    ]
+  },
+  "learn/outputs/noise_removal_plot.png": {
+    "last_updated": "2026-08-30T04:19:49+00:00",
+    "readers": [],
+    "writers": [
+      "learn/08_multilabel_multioutput.py"
+    ]
+  },
+  "learn/outputs/pr_curve_comparison_plot.png": {
+    "last_updated": "2026-08-16T07:46:24+00:00",
+    "readers": [],
+    "writers": [
+      "learn/05_roc_curve.py"
+    ]
+  },
+  "learn/outputs/precision_recall_vs_threshold_plot.png": {
+    "last_updated": "2026-08-16T07:45:21+00:00",
+    "readers": [],
+    "writers": [
+      "learn/04_precision_recall_tradeoff.py"
+    ]
+  },
+  "learn/outputs/precision_vs_recall_plot.png": {
+    "last_updated": "2026-08-16T07:45:21+00:00",
+    "readers": [],
+    "writers": [
+      "learn/04_precision_recall_tradeoff.py"
+    ]
+  },
+  "learn/outputs/roc_curve_plot.png": {
+    "last_updated": "2026-08-16T07:45:46+00:00",
+    "readers": [],
+    "writers": [
+      "learn/05_roc_curve.py"
+    ]
+  }
+}

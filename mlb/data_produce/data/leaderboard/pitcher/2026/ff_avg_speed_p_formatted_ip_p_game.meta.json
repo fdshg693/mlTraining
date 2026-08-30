@@ -1,0 +1,19 @@
+{
+  "url": "https://baseballsavant.mlb.com/leaderboard/custom?year=2026&type=pitcher&filter=&min=40&selections=p_game%2Cp_formatted_ip%2Cff_avg_speed&chart=false&x=p_game&y=p_game&r=no&chartType=beeswarm&sort=1&sortDir=asc&csv=true",
+  "params": {
+    "year": 2026,
+    "type": "pitcher",
+    "filter": "",
+    "min": "40",
+    "selections": "p_game,p_formatted_ip,ff_avg_speed",
+    "chart": "false",
+    "x": "p_game",
+    "y": "p_game",
+    "r": "no",
+    "chartType": "beeswarm",
+    "sort": 1,
+    "sortDir": "asc",
+    "csv": "true"
+  },
+  "fetched_at": "2026-08-02T11:10:05+00:00"
+}

@@ -1,0 +1,143 @@
+"""データセットと生成物のファイル入出力を集約する薄いラッパー。
+
+呼び出し側はプロジェクトルートからの相対パスや出力先の作り方を意識せず、
+ファイル名だけを指定して読み書きできる。outputs_dirを省略した場合は、
+呼び出し元スクリプトと同じディレクトリのoutputsフォルダが使われる
+（analysis/overview配下から呼べばanalysis/overview/outputsに出力される）。
+"""
+
+import inspect
+from pathlib import Path
+from typing import Any
+
+import pandas as pd
+import yaml
+
+from data_produce.util.metadata import record_read, record_write
+
+
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+
+
+def _caller_outputs_dir() -> Path:
+    """このヘルパーを直接呼んだ関数の、そのまた呼び出し元スクリプトのディレクトリ
+    直下のoutputsフォルダを返す（output_path/save_figure/save_tableから直接呼ぶこと）。
+    """
+
+    caller_file = Path(inspect.stack()[2].filename).resolve()
+    return caller_file.parent / "outputs"
+
+
+def data_path(file_name: str, data_dir: str | Path = DATA_DIR) -> Path:
+    """データファイルの絶対パスを返す。"""
+
+    return Path(data_dir) / file_name
+
+
+def output_path(file_name: str, outputs_dir: str | Path | None = None) -> Path:
+    """スクリプトの生成物の絶対パスを返す。"""
+
+    if outputs_dir is None:
+        outputs_dir = _caller_outputs_dir()
+    return Path(outputs_dir) / file_name
+
+
+def exists(file_name: str, data_dir: str | Path = DATA_DIR) -> bool:
+    """データファイルが既に存在するか確認する。"""
+
+    return data_path(file_name, data_dir).is_file()
+
+
+def read_csv(
+    csv_name: str,
+    data_dir: str | Path = DATA_DIR,
+    **kwargs: Any,
+) -> pd.DataFrame:
+    """データディレクトリ配下のCSVを読み込む。"""
+
+    path = data_path(csv_name, data_dir)
+    record_read(path)
+    return pd.read_csv(path, **kwargs)
+
+
+def write_csv(
+    df: pd.DataFrame,
+    csv_name: str,
+    data_dir: str | Path = DATA_DIR,
+    **kwargs: Any,
+) -> Path:
+    """DataFrameをデータディレクトリ配下のCSVへ書き出す。"""
+
+    path = data_path(csv_name, data_dir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    df.to_csv(path, **kwargs)
+    record_write(path)
+    return path
+
+
+def read_yaml(
+    yaml_name: str,
+    data_dir: str | Path = DATA_DIR,
+) -> Any:
+    """データディレクトリ配下のYAMLを読み込む。"""
+
+    path = data_path(yaml_name, data_dir)
+    record_read(path)
+    with path.open(encoding="utf-8") as yaml_file:
+        return yaml.safe_load(yaml_file)
+
+
+def write_yaml(
+    content: Any,
+    yaml_name: str,
+    data_dir: str | Path = DATA_DIR,
+) -> Path:
+    """データをデータディレクトリ配下のYAMLへ書き出す。"""
+
+    path = data_path(yaml_name, data_dir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8") as yaml_file:
+        yaml.safe_dump(content, yaml_file, allow_unicode=True, sort_keys=False)
+    record_write(path)
+    return path
+
+
+def save_figure(
+    figure: Any,
+    file_name: str,
+    outputs_dir: str | Path | None = None,
+    **kwargs: Any,
+) -> Path:
+    """Figureを出力ディレクトリへ保存する。"""
+
+    if outputs_dir is None:
+        outputs_dir = _caller_outputs_dir()
+    path = output_path(file_name, outputs_dir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(path, **kwargs)
+    record_write(path)
+    return path
+
+
+def save_table(
+    df: pd.DataFrame,
+    file_name: str,
+    outputs_dir: str | Path | None = None,
+    fmt: str = "csv",
+) -> Path:
+    """集計結果のDataFrameを出力ディレクトリへCSV/Markdownで保存する。"""
+
+    if outputs_dir is None:
+        outputs_dir = _caller_outputs_dir()
+    path = output_path(file_name, outputs_dir)
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    if fmt == "csv":
+        df.to_csv(path, index=False)
+    elif fmt in ("markdown", "md"):
+        df.to_markdown(path, index=False)
+    else:
+        raise ValueError(f"未知のfmtです: {fmt}（'csv'か'markdown'/'md'を指定してください）")
+
+    record_write(path)
+    return path

@@ -1,0 +1,375 @@
+year: 2026
+player_type: batter
+fetched_at: '2026-08-08T15:51:35+00:00'
+url: https://baseballsavant.mlb.com/leaderboard/custom?year=2026&type=batter&filter=&min=q&selections=&chart=false&x=&y=&r=no&chartType=beeswarm&sort=xwoba&sortDir=asc
+categories:
+  standard_stats:
+  - id: player_age
+    label: Age
+  - id: ab
+    label: AB
+  - id: pa
+    label: PA
+  - id: hit
+    label: H
+  - id: single
+    label: 1B
+  - id: double
+    label: 2B
+  - id: triple
+    label: 3B
+  - id: home_run
+    label: HR
+  - id: strikeout
+    label: SO
+  - id: walk
+    label: BB
+  - id: k_percent
+    label: K%
+  - id: bb_percent
+    label: BB%
+  - id: batting_avg
+    label: AVG
+  - id: slg_percent
+    label: SLG
+  - id: on_base_percent
+    label: OBP
+  - id: on_base_plus_slg
+    label: OPS
+  - id: isolated_power
+    label: ISO
+  - id: babip
+    label: BABIP
+  - id: b_rbi
+    label: RBI
+  - id: b_lob
+    label: LOB
+  - id: b_total_bases
+    label: TB
+  - id: r_total_caught_stealing
+    label: CS
+  - id: r_total_stolen_base
+    label: SB
+  - id: b_ab_scoring
+    label: AB-Scoring
+  - id: b_ball
+    label: Balls
+  - id: b_called_strike
+    label: Called Strike
+  - id: b_catcher_interf
+    label: Catcher Int.
+  - id: b_foul
+    label: Foul
+  - id: b_foul_tip
+    label: Foul Tip
+  - id: b_game
+    label: G
+  - id: b_gnd_into_dp
+    label: GIDP
+  - id: b_gnd_into_tp
+    label: GITP
+  - id: b_gnd_rule_double
+    label: 2B-GRD
+  - id: b_hit_by_pitch
+    label: HBP
+  - id: b_hit_ground
+    label: Hit-GB
+  - id: b_hit_fly
+    label: Hit-FB
+  - id: b_hit_into_play
+    label: HIP
+  - id: b_hit_line_drive
+    label: Hit-LD
+  - id: b_hit_popup
+    label: H-Popup
+  - id: b_out_fly
+    label: Out-FB
+  - id: b_out_ground
+    label: Out-GB
+  - id: b_out_line_drive
+    label: Out-LD
+  - id: b_out_popup
+    label: Out-Popup
+  - id: b_intent_ball
+    label: IntentBall
+  - id: b_intent_walk
+    label: IBB
+  - id: b_interference
+    label: Interference
+  - id: b_pinch_hit
+    label: Pinch Hit
+  - id: b_pinch_run
+    label: Pinch Run
+  - id: b_pitchout
+    label: Pitchout
+  - id: b_played_dh
+    label: G-DH
+  - id: b_sac_bunt
+    label: Sac Bunt
+  - id: b_sac_fly
+    label: Sac Fly
+  - id: b_swinging_strike
+    label: Swing & Misses
+  - id: r_caught_stealing_2b
+    label: CS-2B
+  - id: r_caught_stealing_3b
+    label: CS-3B
+  - id: r_caught_stealing_home
+    label: CS-HP
+  - id: r_defensive_indiff
+    label: Def Indiff
+  - id: r_interference
+    label: Runner Int.
+  - id: r_pickoff_1b
+    label: Pickoff 1B-Out
+  - id: r_pickoff_2b
+    label: Pickoff 2B-Out
+  - id: r_pickoff_3b
+    label: Pickoff 3B-Out
+  - id: r_run
+    label: R
+  - id: r_stolen_base_2b
+    label: SB-2B
+  - id: r_stolen_base_3b
+    label: SB-3B
+  - id: r_stolen_base_home
+    label: SB-HP
+  - id: b_total_ball
+    label: TotalBalls
+  - id: b_total_sacrifices
+    label: Sac
+  - id: b_total_strike
+    label: Total Strikes
+  - id: b_total_swinging_strike
+    label: Total Swings
+  - id: b_total_pitches
+    label: TP
+  - id: r_stolen_base_pct
+    label: SB%
+  - id: r_total_pickoff
+    label: Pickoff
+  - id: b_reached_on_error
+    label: ROE
+  - id: b_walkoff
+    label: Walkoff
+  - id: b_reached_on_int
+    label: ROI
+  statcast_stats:
+  - id: xba
+    label: xBA
+  - id: xslg
+    label: xSLG
+  - id: woba
+    label: wOBA
+  - id: xwoba
+    label: xwOBA
+  - id: xobp
+    label: xOBP
+  - id: xiso
+    label: xISO
+  - id: wobacon
+    label: wOBAcon
+  - id: xwobacon
+    label: xwOBAcon
+  - id: bacon
+    label: BACON
+  - id: xbacon
+    label: xBACON
+  - id: xbadiff
+    label: BA - xBA
+  - id: xslgdiff
+    label: SLG - xSLG
+  - id: wobadiff
+    label: wOBA - xwOBA
+  - id: avg_swing_speed
+    label: Bat Speed
+  - id: fast_swing_rate
+    label: Fast Swing %
+  - id: blasts_contact
+    label: Blasts / Contact
+  - id: blasts_swing
+    label: Blasts / Swing
+  - id: squared_up_contact
+    label: Squared-Up / Contact
+  - id: squared_up_swing
+    label: Squared-Up / Swing
+  - id: avg_swing_length
+    label: Swing Length
+  - id: swords
+    label: Swords
+  - id: attack_angle
+    label: Attack Angle
+  - id: attack_direction
+    label: Attack Direction
+  - id: ideal_angle_rate
+    label: Ideal Attack Angle %
+  - id: vertical_swing_path
+    label: Swing Path Tilt
+  - id: exit_velocity_avg
+    label: Avg EV (MPH)
+  - id: launch_angle_avg
+    label: Avg LA (°)
+  - id: sweet_spot_percent
+    label: LA Sweet-Spot %
+  - id: barrel
+    label: Barrels
+  - id: barrel_batted_rate
+    label: Barrel%
+  - id: solidcontact_percent
+    label: Solid Contact %
+  - id: flareburner_percent
+    label: Flare/Burner %
+  - id: poorlyunder_percent
+    label: Under %
+  - id: poorlytopped_percent
+    label: Topped %
+  - id: poorlyweak_percent
+    label: Poor/Weak %
+  - id: hard_hit_percent
+    label: Hard Hit %
+  - id: avg_best_speed
+    label: EV50
+  - id: avg_hyper_speed
+    label: Adjusted EV
+  - id: z_swing_percent
+    label: Zone Swing %
+  - id: z_swing_miss_percent
+    label: Zone Swing & Miss %
+  - id: oz_swing_percent
+    label: Out of Zone Swing %
+  - id: oz_swing_miss_percent
+    label: Out of Zone Swing & Miss%
+  - id: oz_contact_percent
+    label: Out of Zone Contact %
+  - id: out_zone_swing_miss
+    label: Out of Zone Swing & Miss
+  - id: out_zone_swing
+    label: Out of Zone Swings
+  - id: out_zone_percent
+    label: Out of Zone %
+  - id: out_zone
+    label: Out of Zone
+  - id: meatball_swing_percent
+    label: Meatball Swing %
+  - id: meatball_percent
+    label: Meatball %
+  - id: pitch_count_offspeed
+    label: '# Offspeed'
+  - id: pitch_count_fastball
+    label: '# Fastball'
+  - id: pitch_count_breaking
+    label: '# Breaking'
+  - id: pitch_count
+    label: Pitches
+  - id: iz_contact_percent
+    label: In Zone Contact %
+  - id: in_zone_swing_miss
+    label: In Zone Swing & Miss
+  - id: in_zone_swing
+    label: In Zone Swings
+  - id: in_zone_percent
+    label: In Zone %
+  - id: in_zone
+    label: In Zone
+  - id: edge_percent
+    label: Edge %
+  - id: edge
+    label: Edge
+  - id: whiff_percent
+    label: Whiff %
+  - id: swing_percent
+    label: Swing %
+  - id: pull_percent
+    label: Pull %
+  - id: straightaway_percent
+    label: Straight Away %
+  - id: opposite_percent
+    label: Oppo %
+  - id: batted_ball
+    label: Batted Balls
+  - id: f_strike_percent
+    label: First Strike %
+  - id: groundballs_percent
+    label: GB%
+  - id: groundballs
+    label: GB
+  - id: flyballs_percent
+    label: FB%
+  - id: flyballs
+    label: FB
+  - id: linedrives_percent
+    label: LD %
+  - id: linedrives
+    label: LD
+  - id: popups_percent
+    label: Popup %
+  - id: popups
+    label: Popups
+  - id: pop_2b_sba_count
+    label: 2B Attempts
+  - id: pop_2b_sba
+    label: Pop Time 2B All
+  - id: pop_2b_sb
+    label: Pop Time 2B on SB
+  - id: pop_2b_cs
+    label: Pop Time 2B on CS
+  - id: pop_3b_sba_count
+    label: 3B Attempts
+  - id: pop_3b_sba
+    label: Pop Time 3B All
+  - id: pop_3b_sb
+    label: Pop Time 3B on SB
+  - id: pop_3b_cs
+    label: Pop Time 2B on CS
+  - id: exchange_2b_3b_sba
+    label: Exchange
+  - id: maxeff_arm_2b_3b_sba
+    label: Arm Stength
+  - id: n_outs_above_average
+    label: OAA
+  - id: n_fieldout_5stars
+    label: 5* Outs
+  - id: n_opp_5stars
+    label: 5* Opp
+  - id: n_5star_percent
+    label: 5* %
+  - id: n_fieldout_4stars
+    label: 4* Outs
+  - id: n_opp_4stars
+    label: 4* Opp
+  - id: n_4star_percent
+    label: 4* %
+  - id: n_fieldout_3stars
+    label: 3* Outs
+  - id: n_opp_3stars
+    label: 3* Opp
+  - id: n_3star_percent
+    label: 3* %
+  - id: n_fieldout_2stars
+    label: 2* Outs
+  - id: n_opp_2stars
+    label: 2* Opp
+  - id: n_2star_percent
+    label: 2* %
+  - id: n_fieldout_1stars
+    label: 1* Outs
+  - id: n_opp_1stars
+    label: 1* Opp
+  - id: n_1star_percent
+    label: 1* %
+  - id: rel_league_reaction_distance
+    label: Reaction
+  - id: rel_league_burst_distance
+    label: Burst
+  - id: rel_league_routing_distance
+    label: Route
+  - id: rel_league_bootup_distance
+    label: Feet vs Avg
+  - id: f_bootup_distance
+    label: Feet Covered
+  - id: n_bolts
+    label: Bolts
+  - id: hp_to_1b
+    label: HP to 1B
+  - id: sprint_speed
+    label: Sprint Speed

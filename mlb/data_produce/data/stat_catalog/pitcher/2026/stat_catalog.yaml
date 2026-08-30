@@ -1,0 +1,611 @@
+year: 2026
+player_type: pitcher
+fetched_at: '2026-08-08T14:48:48+00:00'
+url: https://baseballsavant.mlb.com/leaderboard/custom?year=2026&type=pitcher&filter=&min=q&selections=&chart=false&x=&y=&r=no&chartType=beeswarm&sort=xwoba&sortDir=asc
+categories:
+  standard_stats:
+  - id: player_age
+    label: Age
+  - id: p_game
+    label: G
+  - id: p_formatted_ip
+    label: IP
+  - id: pa
+    label: BF
+  - id: ab
+    label: AB
+  - id: hit
+    label: H
+  - id: single
+    label: 1B
+  - id: double
+    label: 2B
+  - id: triple
+    label: 3B
+  - id: home_run
+    label: HR
+  - id: strikeout
+    label: SO
+  - id: walk
+    label: BB
+  - id: k_percent
+    label: K%
+  - id: bb_percent
+    label: BB%
+  - id: batting_avg
+    label: AVG
+  - id: slg_percent
+    label: SLG
+  - id: on_base_percent
+    label: OBP
+  - id: on_base_plus_slg
+    label: OPS
+  - id: isolated_power
+    label: ISO
+  - id: babip
+    label: BABIP
+  - id: p_earned_run
+    label: ER
+  - id: p_run
+    label: R
+  - id: p_save
+    label: S
+  - id: p_blown_save
+    label: BS
+  - id: p_out
+    label: Outs
+  - id: p_win
+    label: W
+  - id: p_loss
+    label: L
+  - id: p_wild_pitch
+    label: WP
+  - id: p_balk
+    label: Balks
+  - id: p_shutout
+    label: ShutOut
+  - id: p_era
+    label: ERA
+  - id: p_opp_batting_avg
+    label: BAA
+  - id: p_opp_on_base_avg
+    label: OBPA
+  - id: p_total_stolen_base
+    label: SB
+  - id: p_pickoff_attempt_1b
+    label: Pickoff Attempt-1B
+  - id: p_pickoff_attempt_2b
+    label: Pickoff Attempt-2B
+  - id: p_pickoff_attempt_3b
+    label: Pickoff Attempt-3B
+  - id: p_pickoff_1b
+    label: Pickoff-1B-Out
+  - id: p_pickoff_2b
+    label: Pickoff-2B-Out
+  - id: p_pickoff_3b
+    label: Pickoff-3B-Out
+  - id: p_lob
+    label: LOB
+  - id: p_rbi
+    label: RBI
+  - id: p_stolen_base_2b
+    label: SB-2B
+  - id: p_stolen_base_3b
+    label: SB-3B
+  - id: p_stolen_base_home
+    label: SB-HP
+  - id: p_quality_start
+    label: QS
+  - id: p_walkoff
+    label: Walkoff
+  - id: p_run_support
+    label: RunSupport
+  - id: p_ab_scoring
+    label: AB - Score
+  - id: p_automatic_ball
+    label: AutoBall
+  - id: p_ball
+    label: Balls
+  - id: p_called_strike
+    label: Called Strikes
+  - id: p_catcher_interf
+    label: Catcher Interference
+  - id: p_caught_stealing_2b
+    label: CS-2B
+  - id: p_caught_stealing_3b
+    label: CS-3B
+  - id: p_caught_stealing_home
+    label: CS-HP
+  - id: p_complete_game
+    label: CG
+  - id: p_defensive_indiff
+    label: DefInd
+  - id: p_foul
+    label: Foul
+  - id: p_foul_tip
+    label: FoulTip
+  - id: p_game_finished
+    label: G-Finished
+  - id: p_game_in_relief
+    label: G-RP
+  - id: p_gnd_into_dp
+    label: GIDP
+  - id: p_gnd_into_tp
+    label: GITP
+  - id: p_gnd_rule_double
+    label: 2B-OOP
+  - id: p_hit_by_pitch
+    label: HBP
+  - id: p_hit_fly
+    label: Hit-FlyBall
+  - id: p_hit_ground
+    label: Hit-GB
+  - id: p_hit_line_drive
+    label: Hit-LD
+  - id: p_hit_into_play
+    label: HIP
+  - id: p_hit_scoring
+    label: Hit-RunScore
+  - id: p_hold
+    label: Hold
+  - id: p_intent_ball
+    label: IntentBall
+  - id: p_intent_walk
+    label: IntentWalk
+  - id: p_missed_bunt
+    label: MissedBunt
+  - id: p_out_fly
+    label: Out-FB
+  - id: p_out_ground
+    label: Out-GB
+  - id: p_out_line_drive
+    label: Out-LD
+  - id: p_passed_ball
+    label: PassedBall
+  - id: p_pickoff_error_1b
+    label: Pickoff Error-1B
+  - id: p_pickoff_error_2b
+    label: Pickoff Error-2B
+  - id: p_pickoff_error_3b
+    label: Pickoff Error-3B
+  - id: p_pitchout
+    label: Pitchout
+  - id: p_relief_no_out
+    label: Relief-No Out
+  - id: p_sac_bunt
+    label: SacBunt
+  - id: p_sac_fly
+    label: SacFly
+  - id: p_starting_p
+    label: GS
+  - id: p_swinging_strike
+    label: Swing & Misses
+  - id: p_unearned_run
+    label: Unearned Run
+  - id: p_total_ball
+    label: TotalBalls
+  - id: p_total_bases
+    label: TotalBases
+  - id: p_total_caught_stealing
+    label: CS
+  - id: p_total_pickoff
+    label: Pickoffs
+  - id: p_total_pickoff_attempt
+    label: Pickoff Attempts
+  - id: p_total_pickoff_error
+    label: Pickoff Errors
+  - id: p_total_pitches
+    label: TP
+  - id: p_total_sacrifices
+    label: T-Sac
+  - id: p_total_strike
+    label: Strikes
+  - id: p_total_swinging_strike
+    label: Total Swings
+  - id: p_inh_runner
+    label: Inherited Runners
+  - id: p_inh_runner_scored
+    label: Inherited Runners Scored
+  - id: p_beq_runner
+    label: Bequeath Runner
+  - id: p_beq_runner_scored
+    label: Bequeath Runner Scored
+  - id: p_reached_on_error
+    label: ROE
+  statcast_stats:
+  - id: xba
+    label: xBA
+  - id: xslg
+    label: xSLG
+  - id: woba
+    label: wOBA
+  - id: xwoba
+    label: xwOBA
+  - id: xobp
+    label: xOBP
+  - id: xiso
+    label: xISO
+  - id: wobacon
+    label: wOBAcon
+  - id: xwobacon
+    label: xwOBAcon
+  - id: bacon
+    label: BACON
+  - id: xbacon
+    label: xBACON
+  - id: xbadiff
+    label: BA - xBA
+  - id: xslgdiff
+    label: SLG - xSLG
+  - id: wobadiff
+    label: wOBA - xwOBA
+  - id: avg_swing_speed
+    label: Bat Speed
+  - id: fast_swing_rate
+    label: Fast Swing %
+  - id: blasts_contact
+    label: Blasts / Contact
+  - id: blasts_swing
+    label: Blasts / Swing
+  - id: squared_up_contact
+    label: Squared-Up / Contact
+  - id: squared_up_swing
+    label: Squared-Up / Swing
+  - id: avg_swing_length
+    label: Swing Length
+  - id: swords
+    label: Swords
+  - id: attack_angle
+    label: Attack Angle
+  - id: attack_direction
+    label: Attack Direction
+  - id: ideal_angle_rate
+    label: Ideal Attack Angle %
+  - id: vertical_swing_path
+    label: Swing Path Tilt
+  - id: exit_velocity_avg
+    label: Avg EV (MPH)
+  - id: launch_angle_avg
+    label: Avg LA (°)
+  - id: sweet_spot_percent
+    label: LA Sweet-Spot %
+  - id: barrel
+    label: Barrels
+  - id: barrel_batted_rate
+    label: Barrel%
+  - id: solidcontact_percent
+    label: Solid Contact %
+  - id: flareburner_percent
+    label: Flare/Burner %
+  - id: poorlyunder_percent
+    label: Under %
+  - id: poorlytopped_percent
+    label: Topped %
+  - id: poorlyweak_percent
+    label: Poor/Weak %
+  - id: hard_hit_percent
+    label: Hard Hit %
+  - id: avg_best_speed
+    label: EV50
+  - id: avg_hyper_speed
+    label: Adjusted EV
+  - id: z_swing_percent
+    label: Zone Swing %
+  - id: z_swing_miss_percent
+    label: Zone Swing & Miss %
+  - id: oz_swing_percent
+    label: Out of Zone Swing %
+  - id: oz_swing_miss_percent
+    label: Out of Zone Swing & Miss%
+  - id: oz_contact_percent
+    label: Out of Zone Contact %
+  - id: out_zone_swing_miss
+    label: Out of Zone Swing & Miss
+  - id: out_zone_swing
+    label: Out of Zone Swings
+  - id: out_zone_percent
+    label: Out of Zone %
+  - id: out_zone
+    label: Out of Zone
+  - id: meatball_swing_percent
+    label: Meatball Swing %
+  - id: meatball_percent
+    label: Meatball %
+  - id: pitch_count_offspeed
+    label: '# Offspeed'
+  - id: pitch_count_fastball
+    label: '# Fastball'
+  - id: pitch_count_breaking
+    label: '# Breaking'
+  - id: pitch_count
+    label: Pitches
+  - id: iz_contact_percent
+    label: In Zone Contact %
+  - id: in_zone_swing_miss
+    label: In Zone Swing & Miss
+  - id: in_zone_swing
+    label: In Zone Swings
+  - id: in_zone_percent
+    label: In Zone %
+  - id: in_zone
+    label: In Zone
+  - id: edge_percent
+    label: Edge %
+  - id: edge
+    label: Edge
+  - id: whiff_percent
+    label: Whiff %
+  - id: swing_percent
+    label: Swing %
+  - id: pull_percent
+    label: Pull %
+  - id: straightaway_percent
+    label: Straight Away %
+  - id: opposite_percent
+    label: Oppo %
+  - id: batted_ball
+    label: Batted Balls
+  - id: f_strike_percent
+    label: First Strike %
+  - id: groundballs_percent
+    label: GB%
+  - id: groundballs
+    label: GB
+  - id: flyballs_percent
+    label: FB%
+  - id: flyballs
+    label: FB
+  - id: linedrives_percent
+    label: LD %
+  - id: linedrives
+    label: LD
+  - id: popups_percent
+    label: Popup %
+  - id: popups
+    label: Popups
+  - id: pitch_hand
+    label: Throws
+  - id: n
+    label: Total Pitches
+  - id: arm_angle
+    label: Arm Angle
+  - id: n_ff_formatted
+    label: 4-Seam %
+  - id: ff_avg_speed
+    label: 4-Seam Avg MPH
+  - id: ff_avg_spin
+    label: 4-Seam Avg Spin
+  - id: ff_avg_break_x
+    label: 4-Seam Avg H Break
+  - id: ff_avg_break_z
+    label: 4-Seam Avg V Break
+  - id: ff_avg_break_z_induced
+    label: 4-Seam Avg IVB
+  - id: ff_avg_break
+    label: 4-Seam Avg Break
+  - id: ff_range_speed
+    label: 4-Seam Range MPH
+  - id: n_sl_formatted
+    label: Slider %
+  - id: sl_avg_speed
+    label: Slider Avg MPH
+  - id: sl_avg_spin
+    label: Slider Avg Spin
+  - id: sl_avg_break_x
+    label: Slider Avg H Break
+  - id: sl_avg_break_z
+    label: Slider Avg V Break
+  - id: sl_avg_break_z_induced
+    label: Slider Avg IVB
+  - id: sl_avg_break
+    label: Slider Avg Break
+  - id: sl_range_speed
+    label: Slider Range MPH
+  - id: n_ch_formatted
+    label: Change %
+  - id: ch_avg_speed
+    label: Change Avg MPH
+  - id: ch_avg_spin
+    label: Change Avg Spin
+  - id: ch_avg_break_x
+    label: Change Avg H Break
+  - id: ch_avg_break_z
+    label: Change Avg V Break
+  - id: ch_avg_break_z_induced
+    label: Change Avg IVB
+  - id: ch_avg_break
+    label: Change Avg Break
+  - id: ch_range_speed
+    label: Change Range MPH
+  - id: n_cu_formatted
+    label: Curveball %
+  - id: cu_avg_speed
+    label: Curveball Avg MPH
+  - id: cu_avg_spin
+    label: Curveball Avg Spin
+  - id: cu_avg_break_x
+    label: Curveball Avg H Break
+  - id: cu_avg_break_z
+    label: Curveball Avg V Break
+  - id: cu_avg_break_z_induced
+    label: Curveball Avg IVB
+  - id: cu_avg_break
+    label: Curveball Avg Break
+  - id: cu_range_speed
+    label: Curveball Range MPH
+  - id: n_si_formatted
+    label: Sinker %
+  - id: si_avg_speed
+    label: Sinker Avg MPH
+  - id: si_avg_spin
+    label: Sinker Avg Spin
+  - id: si_avg_break_x
+    label: Sinker Avg H Break
+  - id: si_avg_break_z
+    label: Sinker Avg V Break
+  - id: si_avg_break_z_induced
+    label: Sinker Avg IVB
+  - id: si_avg_break
+    label: Sinker Avg Break
+  - id: si_range_speed
+    label: Sinker Range MPH
+  - id: n_fc_formatted
+    label: Cutter %
+  - id: fc_avg_speed
+    label: Cutter Avg MPH
+  - id: fc_avg_spin
+    label: Cutter Avg Spin
+  - id: fc_avg_break_x
+    label: Cutter Avg H Break
+  - id: fc_avg_break_z
+    label: Cutter Avg V Break
+  - id: fc_avg_break_z_induced
+    label: Cutter Avg IVB
+  - id: fc_avg_break
+    label: Cutter Avg Break
+  - id: fc_range_speed
+    label: Cutter Range MPH
+  - id: n_fs_formatted
+    label: Splitter %
+  - id: fs_avg_speed
+    label: Splitter Avg MPH
+  - id: fs_avg_spin
+    label: Splitter Avg Spin
+  - id: fs_avg_break_x
+    label: Splitter Avg H Break
+  - id: fs_avg_break_z
+    label: Splitter Avg V Break
+  - id: fs_avg_break_z_induced
+    label: Splitter Avg IVB
+  - id: fs_avg_break
+    label: Splitter Avg Break
+  - id: fs_range_speed
+    label: Splitter Range MPH
+  - id: n_kn_formatted
+    label: Knuckle %
+  - id: kn_avg_speed
+    label: Knuckle Avg MPH
+  - id: kn_avg_spin
+    label: Knuckle Avg Spin
+  - id: kn_avg_break_x
+    label: Knuckle Avg H Break
+  - id: kn_avg_break_z
+    label: Knuckle Avg V Break
+  - id: kn_avg_break_z_induced
+    label: Knuckle Avg IVB
+  - id: kn_avg_break
+    label: Knuckle Avg Break
+  - id: kn_range_speed
+    label: Knuckle Range MPH
+  - id: n_st_formatted
+    label: Sweeper %
+  - id: st_avg_speed
+    label: Sweeper Avg MPH
+  - id: st_avg_spin
+    label: Sweeper Avg Spin
+  - id: st_avg_break_x
+    label: Sweeper Avg H Break
+  - id: st_avg_break_z
+    label: Sweeper Avg V Break
+  - id: st_avg_break_z_induced
+    label: Sweeper Avg IVB
+  - id: st_avg_break
+    label: Sweeper Avg Break
+  - id: st_range_speed
+    label: Sweeper Range MPH
+  - id: n_sv_formatted
+    label: Slurve %
+  - id: sv_avg_speed
+    label: Slurve Avg MPH
+  - id: sv_avg_spin
+    label: Slurve Avg Spin
+  - id: sv_avg_break_x
+    label: Slurve Avg H Break
+  - id: sv_avg_break_z
+    label: Slurve Avg V Break
+  - id: sv_avg_break_z_induced
+    label: Slurve Avg IVB
+  - id: sv_avg_break
+    label: Slurve Avg Break
+  - id: sv_range_speed
+    label: Slurve Range MPH
+  - id: n_fo_formatted
+    label: Forkball %
+  - id: fo_avg_speed
+    label: Forkball Avg MPH
+  - id: fo_avg_spin
+    label: Forkball Avg Spin
+  - id: fo_avg_break_x
+    label: Forkball Avg H Break
+  - id: fo_avg_break_z
+    label: Forkball Avg V Break
+  - id: fo_avg_break_z_induced
+    label: Forkball Avg IVB
+  - id: fo_avg_break
+    label: Forkball Avg Break
+  - id: fo_range_speed
+    label: Forkball Range MPH
+  - id: n_sc_formatted
+    label: Screwball %
+  - id: sc_avg_speed
+    label: Screwball Avg MPH
+  - id: sc_avg_spin
+    label: Screwball Avg Spin
+  - id: sc_avg_break_x
+    label: Screwball Avg H Break
+  - id: sc_avg_break_z
+    label: Screwball Avg V Break
+  - id: sc_avg_break_z_induced
+    label: Screwball Avg IVB
+  - id: sc_avg_break
+    label: Screwball Avg Break
+  - id: sc_range_speed
+    label: Screwball Range MPH
+  - id: n_fastball_formatted
+    label: Fastball %
+  - id: fastball_avg_speed
+    label: Fastball Avg MPH
+  - id: fastball_avg_spin
+    label: Fastball Avg Spin
+  - id: fastball_avg_break_x
+    label: Fastball Avg H Break
+  - id: fastball_avg_break_z
+    label: Fastball Avg V Break
+  - id: fastball_avg_break_z_induced
+    label: Fastball Avg IVB
+  - id: fastball_avg_break
+    label: Fastball Avg Break
+  - id: fastball_range_speed
+    label: Fastball Range MPH
+  - id: n_breaking_formatted
+    label: Breaking %
+  - id: breaking_avg_speed
+    label: Breaking Avg MPH
+  - id: breaking_avg_spin
+    label: Breaking Avg Spin
+  - id: breaking_avg_break_x
+    label: Breaking Avg H Break
+  - id: breaking_avg_break_z
+    label: Breaking Avg V Break
+  - id: breaking_avg_break_z_induced
+    label: Breaking Avg IVB
+  - id: breaking_avg_break
+    label: Breaking Avg Break
+  - id: breaking_range_speed
+    label: Breaking Range MPH
+  - id: n_offspeed_formatted
+    label: Offspeed %
+  - id: offspeed_avg_speed
+    label: Offspeed Avg MPH
+  - id: offspeed_avg_spin
+    label: Offspeed Avg Spin
+  - id: offspeed_avg_break_x
+    label: Offspeed Avg H Break
+  - id: offspeed_avg_break_z
+    label: Offspeed Avg V Break
+  - id: offspeed_avg_break_z_induced
+    label: Offspeed Avg IVB
+  - id: offspeed_avg_break
+    label: Offspeed Avg Break
+  - id: offspeed_range_speed
+    label: Offspeed Range MPH

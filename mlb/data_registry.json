@@ -1,0 +1,494 @@
+{
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_cluster_role_crosstab.csv": {
+    "last_updated": "2026-08-08T15:00:53+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/cluster.py"
+    ]
+  },
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_clusters.csv": {
+    "last_updated": "2026-08-08T15:00:53+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/cluster.py"
+    ]
+  },
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_clusters.png": {
+    "last_updated": "2026-08-08T15:00:53+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/cluster.py"
+    ]
+  },
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_k_selection.png": {
+    "last_updated": "2026-08-08T15:00:43+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/cluster.py"
+    ]
+  },
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_outliers.csv": {
+    "last_updated": "2026-08-08T15:01:39+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/outliers.py"
+    ]
+  },
+  "analysis/clustering/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game_outliers.png": {
+    "last_updated": "2026-08-08T15:01:39+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/clustering/outliers.py"
+    ]
+  },
+  "analysis/correlation/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_scatter.png": {
+    "last_updated": "2026-08-08T12:57:34+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/correlation/correlation.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_generalization.csv": {
+    "last_updated": "2026-08-16T07:55:53+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_generalization.png": {
+    "last_updated": "2026-08-16T07:55:53+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_best_random_forest.pkl": {
+    "last_updated": "2026-08-16T08:36:46+00:00",
+    "readers": [
+      "analysis/prediction/compare_models.py"
+    ],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_compare_models.csv": {
+    "last_updated": "2026-08-16T08:36:23+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_compare_models.png": {
+    "last_updated": "2026-08-16T08:36:23+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_feature_importance.csv": {
+    "last_updated": "2026-08-16T08:36:38+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_feature_importance.png": {
+    "last_updated": "2026-08-16T08:36:38+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_importance_comparison.csv": {
+    "last_updated": "2026-08-16T08:36:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_importance_comparison.png": {
+    "last_updated": "2026-08-16T08:36:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_partial_dependence.png": {
+    "last_updated": "2026-08-16T08:36:46+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_tune_random_forest.csv": {
+    "last_updated": "2026-08-16T08:36:38+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/compare_models.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game_generalization.csv": {
+    "last_updated": "2026-08-16T07:55:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game_generalization.png": {
+    "last_updated": "2026-08-16T07:55:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game_split_comparison_role.csv": {
+    "last_updated": "2026-08-16T07:55:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game_split_comparison_role.png": {
+    "last_updated": "2026-08-16T07:55:41+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_poly_compare.csv": {
+    "last_updated": "2026-08-09T02:54:20+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/poly_compare.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_poly_compare.png": {
+    "last_updated": "2026-08-09T02:54:20+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/poly_compare.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_split_comparison_target.csv": {
+    "last_updated": "2026-08-16T07:55:37+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/2026/ff_avg_speed_ff_avg_spin_split_comparison_target.png": {
+    "last_updated": "2026-08-16T07:55:37+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_train2023+2024_test2025_year_shift.png": {
+    "last_updated": "2026-08-16T08:16:03+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/year_shift.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_train2023+2024_test2025_year_shift_cv_scores.csv": {
+    "last_updated": "2026-08-16T08:16:03+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/year_shift.py"
+    ]
+  },
+  "analysis/prediction/outputs/pitcher/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game_train2023+2024_test2025_year_shift_summary.csv": {
+    "last_updated": "2026-08-16T08:16:03+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/year_shift.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2023/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-16T08:16:02+00:00",
+    "readers": [
+      "analysis/prediction/year_shift.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2023/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-16T08:14:22+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2024/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-16T08:16:02+00:00",
+    "readers": [
+      "analysis/prediction/year_shift.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2024/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-16T08:14:23+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2025/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-16T08:16:02+00:00",
+    "readers": [
+      "analysis/prediction/year_shift.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2025/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-16T08:14:24+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/fastball_velocity.csv": {
+    "last_updated": "2026-08-02T09:23:18+00:00",
+    "readers": [
+      "analysis/overview/overview.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/fastball_velocity.meta.json": {
+    "last_updated": "2026-08-02T08:48:31+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin.csv": {
+    "last_updated": "2026-08-16T07:55:53+00:00",
+    "readers": [
+      "analysis/correlation/correlation.py",
+      "analysis/prediction/generalization.py",
+      "analysis/prediction/knn_compare.py",
+      "analysis/prediction/poly_compare.py",
+      "analysis/prediction/predict.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin.meta.json": {
+    "last_updated": "2026-08-02T09:49:23+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-16T08:36:22+00:00",
+    "readers": [
+      "analysis/prediction/compare_models.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_era_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-08T16:02:16+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-08T15:01:39+00:00",
+    "readers": [
+      "analysis/clustering/cluster.py",
+      "analysis/clustering/outliers.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_n_ch_formatted_n_cu_formatted_n_fc_formatted_n_ff_formatted_n_si_formatted_n_sl_formatted_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-08T14:59:27+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-16T07:55:41+00:00",
+    "readers": [
+      "analysis/prediction/generalization.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_ff_avg_spin_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-16T07:55:26+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_p_formatted_ip.csv": {
+    "last_updated": "2026-08-02T10:57:53+00:00",
+    "readers": [
+      "<string>",
+      "analysis/correlation/correlation.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_p_formatted_ip.meta.json": {
+    "last_updated": "2026-08-02T10:57:49+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_p_formatted_ip_p_game.csv": {
+    "last_updated": "2026-08-02T11:10:10+00:00",
+    "readers": [
+      "analysis/role/role.py",
+      "data_produce/fetch_leaderboard.py"
+    ],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/leaderboard/pitcher/2026/ff_avg_speed_p_formatted_ip_p_game.meta.json": {
+    "last_updated": "2026-08-02T11:10:05+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/savant_client.py"
+    ]
+  },
+  "data_produce/data/stat_catalog/batter/2026/stat_catalog.meta.json": {
+    "last_updated": "2026-08-08T15:51:35+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/stat_catalog.py"
+    ]
+  },
+  "data_produce/data/stat_catalog/batter/2026/stat_catalog.yaml": {
+    "last_updated": "2026-08-08T15:53:11+00:00",
+    "readers": [
+      "/home/seiwan/C/mlTraining/<string>",
+      "data_produce/fetch_stat_catalog.py"
+    ],
+    "writers": [
+      "data_produce/stat_catalog.py"
+    ]
+  },
+  "data_produce/data/stat_catalog/pitcher/2026/stat_catalog.meta.json": {
+    "last_updated": "2026-08-08T14:48:48+00:00",
+    "readers": [],
+    "writers": [
+      "data_produce/stat_catalog.py"
+    ]
+  },
+  "data_produce/data/stat_catalog/pitcher/2026/stat_catalog.yaml": {
+    "last_updated": "2026-08-08T15:53:07+00:00",
+    "readers": [
+      "/home/seiwan/C/mlTraining/<string>",
+      "data_produce/fetch_stat_catalog.py"
+    ],
+    "writers": [
+      "data_produce/stat_catalog.py"
+    ]
+  },
+  "outputs/correlation/pitcher/2026/ff_avg_speed_ff_avg_spin_scatter.png": {
+    "last_updated": "2026-08-02T09:50:17+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/correlation/correlation.py"
+    ]
+  },
+  "outputs/correlation/pitcher/2026/ff_avg_speed_p_formatted_ip_scatter.png": {
+    "last_updated": "2026-08-02T10:57:54+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/correlation/correlation.py"
+    ]
+  },
+  "outputs/overview/pitcher/2026/fastball_velocity_distribution.png": {
+    "last_updated": "2026-08-02T09:23:18+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/overview/overview.py"
+    ]
+  },
+  "outputs/overview/pitcher/2026/fastball_velocity_ranking.png": {
+    "last_updated": "2026-08-02T09:23:18+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/overview/overview.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_generalization.csv": {
+    "last_updated": "2026-08-08T04:19:26+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_generalization.png": {
+    "last_updated": "2026-08-08T04:19:26+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/generalization.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_knn_compare.csv": {
+    "last_updated": "2026-08-08T12:13:32+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/knn_compare.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_knn_compare.png": {
+    "last_updated": "2026-08-08T12:13:32+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/knn_compare.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_predict.csv": {
+    "last_updated": "2026-08-02T10:07:27+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/predict.py"
+    ]
+  },
+  "outputs/prediction/pitcher/2026/ff_avg_speed_ff_avg_spin_predict.png": {
+    "last_updated": "2026-08-02T10:07:27+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/prediction/predict.py"
+    ]
+  },
+  "outputs/role/pitcher/2026/ff_avg_speed_p_formatted_ip_p_game_role_comparison.png": {
+    "last_updated": "2026-08-02T11:10:10+00:00",
+    "readers": [],
+    "writers": [
+      "analysis/role/role.py"
+    ]
+  }
+}
